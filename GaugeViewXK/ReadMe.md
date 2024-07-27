@@ -163,7 +163,7 @@ Overall, building GaugeView is an excellent project for learning and practicing 
 ## Additional Resources
 For more information on the topics covered in this document, you can explore the following resources:
 
--   Drawing on iOS (<https://developer.apple.com/documentation/uikit/uiscrollview>)
+-   Drawing on iOS (<https://developer.apple.com/documentation/uikit/uiview/1622529-draw>)
 -   CADisplayLink (<https://developer.apple.com/documentation/quartzcore/cadisplaylink>)
 -   CADisplayLink and its applications (https://medium.com/@dmitryivanov_54099/cadisplaylink-and-its-applications-bfafb760d738)
 -   CAShapeLayer (<https://developer.apple.com/documentation/quartzcore/cashapelayer>)
