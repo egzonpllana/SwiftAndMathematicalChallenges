@@ -1,7 +1,7 @@
 ## Introduction 
 In this article, we will explore a custom Swift UIView called `GaugeViewXK`. This view is designed to display a gauge, similar to those found in speedometers or other measuring instruments. We will break down the code and explain its components and logic in simple terms. This guide is aimed at mid/senior developers who are interested to learn more about custom views in Swift. While we build this component, we do not seek to make it as a perfect component and to use it, our intention is to explore the APIs and the way to draw views in Swift-iOS.
 
-!![gauge-preview](https://github.com/user-attachments/assets/402c2198-2d94-42e0-9167-9a399b7e3ab4)
+![gauge-preview](https://github.com/user-attachments/assets/402c2198-2d94-42e0-9167-9a399b7e3ab4)
 
 ## Purpose
 
