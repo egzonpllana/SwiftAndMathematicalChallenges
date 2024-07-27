@@ -1,5 +1,5 @@
 ## Introduction 
-In this article, we will explore a custom Swift UIView called `GaugeViewXK`. This view is designed to display a gauge, similar to those found in speedometers or other measuring instruments. We will break down the code and explain its components and logic in simple terms. This guide is aimed at mid/senior developers who are interested to learn more about custom views in Swift. While we build this component, we do not seek to make it as a perfect component and to use it, our intention is to explore the APIs and the way to draw views in Swift-iOS.
+In this article, we will explore a custom Swift UIView called `GaugeViewXK`. This view is designed to display a gauge, similar to those found in speedometers or other measuring instruments. We will break down the code and explain its components and logic in simple terms. This guide is aimed at mid/senior developers who are interested in learning more about custom views in Swift. While we build this component, we do not seek to make it a perfect component and to use it, our intention is to explore the APIs and the way to draw views in Swift-iOS.
 
 ![gauge-preview](https://github.com/user-attachments/assets/402c2198-2d94-42e0-9167-9a399b7e3ab4)
 
@@ -21,7 +21,7 @@ The `GaugeViewXK` aims to visually represent a range of values on a gauge. It 
 
 2.  Drawing the Gauge and Labels:
     -   Why It's Challenging: Drawing the gauge involves creating a precise arc that represents the range of values. Additionally, positioning the labels accurately along this arc requires calculating their angles and positions correctly. The challenge is to ensure that the labels are evenly spaced and correctly aligned with the gauge.
-    -   How We Did It: We used trigonometry to calculate the positions of the labels along the gauge's arc. By converting angles to radians and using sine and cosine functions, we determined the (x, y) coordinates for each label. This ensured that the labels are evenly distributed and aligned with the corresponding values on the gauge. We also utilized CAShapeLayer and CAGradientLayer to draw the gauge and apply the appropriate colors or gradients.
+    -   How We Did It: We used trigonometry to calculate the positions of the labels along the gauge's arc. By converting angles to radians and using sine and cosine functions, we determined the (x, y) coordinates for each label. This ensured that the labels were evenly distributed and aligned with the corresponding values on the gauge. We also utilized CAShapeLayer and CAGradientLayer to draw the gauge and apply the appropriate colors or gradients.
 
 ## What is a Display Link?
 CADisplayLink is a timer object that allows your app to synchronize its drawing to the refresh rate of the display. It ensures smooth animations by calling a method at the display's refresh rate.
@@ -53,7 +53,7 @@ The indicator needle points to the current value on the gauge.
     We decide what kind of paint we are using. Here, we choose a conic gradient, which is like a rainbow circle.
 
 2.  **`gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)`**\
-    We pick the center of our canvas as the starting point for our paint. This is the middle point of the rectangle.
+    We pick the center of our canvas as the starting point for our painting. This is the middle point of the rectangle.
 
 3.  **`gradientLayer.endPoint = CGPoint(x: 0.23, y: 2)`**\
     We set where the paint should end. This point is a bit outside the middle, giving our gradient a direction.
