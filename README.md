@@ -8,4 +8,7 @@ In this challenge, I will demonstrate how to build a gauge view, applying trigon
   <img src="https://github.com/user-attachments/assets/5479ac09-023f-4440-a13c-afb9ad932224" alt="gaugeviewxk-preview">
 </div>
 
+View the GaugeViewXK implementaton:
+https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/GaugeViewXK
+
 ## 2nd Challenge: --
