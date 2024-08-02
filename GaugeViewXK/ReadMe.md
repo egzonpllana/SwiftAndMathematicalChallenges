@@ -1,5 +1,5 @@
 ## Introduction 
-In this article, we will explore implementation of mathematical functions in software engineering translated to a custom UIKit view called GaugeViewXK. This view is designed to display a gauge, similar to those found in speedometers or other measuring instruments. We will break down the code and explain its components and logic in simple terms. This guide is aimed at mid/senior developers who are interested in learning more about custom views in Swift.
+In this article, we will explore implementation of mathematical functions in software engineering translated to a custom UIKit view called GaugeViewXK. This view is designed to display a gauge, similar to those found in speedometers or other measuring instruments. We will break down the code and explain its components and logic in simple terms. This guide is aimed at mid/senior developers who are interested in learning more about draw APIs in Swift.
 
 While we build this component, we do not seek to make it a perfect component and to use it, our intention is to explore the APIs and the way to draw views in Swift-iOS.
 
