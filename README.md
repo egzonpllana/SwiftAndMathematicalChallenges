@@ -9,6 +9,6 @@ In this challenge, I will demonstrate how to build a gauge view, applying trigon
 </div>
 
 View the GaugeViewXK implementaton:
-https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/GaugeViewXK
+- https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/GaugeViewXK
 
 ## 2nd Challenge: --
