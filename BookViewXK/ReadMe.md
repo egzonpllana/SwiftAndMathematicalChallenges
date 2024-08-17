@@ -27,7 +27,7 @@ frontSide.frame = sideFrame
 backSide.frame = sideFrame
 ```
 
----preview1
+![preview-1](https://github.com/user-attachments/assets/2bffcd14-701d-4fff-bccd-39449ae73a19)
 
 ## Transparency and Flipping
 To achieve the flipping effect without directly altering the anchor point, we use transparent views where the visible content occupies only half of the space. This method ensures that as the view rotates, it appears to pivot around the edge, creating a page-turning effect while maintaining the default anchor point for other transformations.
@@ -65,7 +65,7 @@ Page composition refers to how individual pages are structured and organized wit
 
 We create each page using UIView for simplicity and ease of use. Each page contains subviews like UILabel, UIImageView, or custom views to display text, images, or other content. Ensuring the correct layer hierarchy is crucial for managing the z-order of pages during flips, and implementing reusable page views can enhance performance by minimizing the creation of new views.
 
----preview2
+![preview-2](https://github.com/user-attachments/assets/f022d748-f459-4d66-ac54-c5e4ecde94d9)
 
 ## Page Layout
 Page layout refers to the spatial arrangement of pages within the book view, ensuring they overlap slightly and are correctly ordered. Proper page layout is crucial for visual appeal and for the flipping animation to work seamlessly. It also ensures that the correct page is always on top during a flip.
@@ -91,7 +91,7 @@ private let bookView = BookViewXK()
 bookView.setPages(pageView)
 ```
 
----preview3
+![preview-3](https://github.com/user-attachments/assets/3c3dbdc5-1608-4afd-809a-335850f212f6)
 
 ## Extra mile? Let's go 🏃‍♂️
 ### Learning How the Core Animation uses a 4x4 matrix?
@@ -129,3 +129,8 @@ Understanding and using m34 effectively allows you to create more realistic and 
 
 ### Conclusion
 Building a flippable page and book view with UIKit involves a combination of strategic anchor point adjustments, detailed page composition, transparency effects, 3D transformations, precise page layout, comprehensive book view setup, and effective visibility management. Each of these components plays a crucial role in creating an interactive and visually appealing book-like interface on iOS.
+
+### Real app implementation
+![gif-5](https://github.com/user-attachments/assets/6381ed76-1e3e-425d-be94-da7b4f840f7a)
+
+https://github.com/egzonpllana/SwiftAndMathematicalChallenges/blob/main/BookViewXK/Examples/ExampleBookViewXK.swift
