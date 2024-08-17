@@ -8,7 +8,13 @@ In this challenge, I will demonstrate how to build a gauge view, applying trigon
   <img src="https://github.com/user-attachments/assets/5479ac09-023f-4440-a13c-afb9ad932224" alt="gaugeviewxk-preview">
 </div>
 
-View the GaugeViewXK implementaton:
 - https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/GaugeViewXK
 
-## 2nd Challenge: --
+## 1st Challenge: Book View
+In this interesting challenge, we delve into creating a flippable page effect using UIKit, exploring the nuances of achieving a realistic page-turning animation. Our analysis begins with understanding the pivotal role of the anchor point in view rotations, which defaults to the center of the view. This central pivoting can lead to a card-like rotation, rather than the desired page-flipping effect.
+
+<div align="leading">
+  <img src="https://github.com/user-attachments/assets/3db46fc2-6ae8-4811-a4fe-b8da1cebc2ee" alt="gaugeviewxk-preview">
+</div>
+
+- https://github.com/egzonpllana/SwiftAndMathematicalChallenges/tree/main/BookViewXK
