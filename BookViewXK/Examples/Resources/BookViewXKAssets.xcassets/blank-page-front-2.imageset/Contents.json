@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "blank-page-front-2.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
